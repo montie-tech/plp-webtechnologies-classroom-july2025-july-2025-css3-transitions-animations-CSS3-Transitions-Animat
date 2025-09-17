@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic Playground</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>🎨 Dynamic Playground with CSS & JS 🎬</h1>
+
+  <!-- PART 1: Animated Buttons -->
+  <section>
+    <h2>Interactive Buttons</h2>
+    <button class="animated-btn">Hover Me!</button>
+    <button id="changeColorBtn">Change Box Color</button>
+  </section>
+
+  <!-- PART 2 & 3: Animated Box -->
+  <section>
+    <h2>Bouncing Box</h2>
+    <div class="box"></div>
+    <button id="animateBoxBtn">Bounce Box</button>
+  </section>
+
+  <!-- Flip Cards -->
+  <section>
+    <h2>Flip Cards</h2>
+    <div class="card-container">
+      <div class="card">
+        <div class="card-front">Front</div>
+        <div class="card-back">Back 🎉</div>
+      </div>
+    </div>
+    <button id="flipCardBtn">Flip with JS</button>
+  </section>
+
+  <!-- Modal -->
+  <section>
+    <h2>Modal Window</h2>
+    <button id="toggleModalBtn">Open Modal</button>
+    <div id="modal" class="modal hidden">
+      <div class="modal-content">
+        <p>Hello! I slide & fade in/out 🎬</p>
+        <button id="closeModalBtn">Close</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Loading Spinner -->
+  <section>
+    <h2>Loading Spinner</h2>
+    <button id="startLoaderBtn">Start Loading</button>
+    <button id="stopLoaderBtn">Stop Loading</button>
+    <div id="loader" class="loader hidden"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
